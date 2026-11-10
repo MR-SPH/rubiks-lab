@@ -1,0 +1,11 @@
+# RUBIK'S LAB runtime dependencies
+PySide6>=6.6
+numpy>=1.24
+
+# Primary solver engine: Herbert Kociemba's two-phase algorithm.
+# Optional at runtime (the app falls back to the built-in pure-Python
+# layer-by-layer solver when this package is missing), but recommended.
+kociemba>=1.2.1
+
+# Development / testing
+pytest>=7.0
